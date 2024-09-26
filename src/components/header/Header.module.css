@@ -1,3 +1,25 @@
 .header {
 	height: fit-content;
+	background: #007b42;
+	padding: 16px 32px;
+	color: #f0fafc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.logo {
+	font-size: 32px;
+}
+.navList {
+	display: flex;
+	gap: 64px;
+}
+.navLink {
+	padding: 8px;
+}
+.active {
+	background: #ffffff50;
+	border-radius: 4px;
 }

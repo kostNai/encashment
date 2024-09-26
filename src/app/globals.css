@@ -2,11 +2,22 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f0fafc;
+}
 body {
 	height: 100vh;
+	padding: 0 128px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+li {
+	list-style: none;
+}
+a {
+	color: #f0fafc;
+	text-decoration: none;
 }
 .main {
 	height: 100%;
