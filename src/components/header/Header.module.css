@@ -19,6 +19,14 @@
 .navLink {
 	padding: 8px;
 }
+.headerLogin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginIcon {
+	size: 25px;
+}
 .active {
 	background: #ffffff50;
 	border-radius: 4px;

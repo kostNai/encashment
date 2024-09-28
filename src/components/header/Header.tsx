@@ -1,8 +1,9 @@
 'use client'
 
 import Link from 'next/link'
-import styles from './Header.module.css'
 import { usePathname } from 'next/navigation'
+import { CiUser } from 'react-icons/ci'
+import styles from './Header.module.css'
 
 export default function Header() {
 	const pathName = usePathname()
@@ -53,9 +54,9 @@ export default function Header() {
 					</ul>
 				</nav>
 			</div>
-			<div>
+			<div className={styles.headerLogin}>
 				<Link href="/login">Вхід</Link>
-				<Link href="/register">Реєстрація</Link>
+				<CiUser size={20} />
 			</div>
 		</header>
 	)
