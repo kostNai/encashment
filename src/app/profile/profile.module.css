@@ -1,0 +1,17 @@
+.profileLayoutLinks {
+	margin-top: 16px;
+	display: flex;
+	gap: 8px;
+}
+.profileLayoutLinks a {
+	color: #007b42;
+	font-size: 20px;
+	font-weight: 500;
+	transition: 300ms;
+	&:hover {
+		color: #007b426e;
+	}
+}
+.active {
+	text-decoration: underline;
+}
