@@ -1,0 +1,70 @@
+.newOperationForm {
+	margin-top: 32px;
+	width: fit-content;
+}
+
+.newOperationFormInputs {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-top: 8px;
+	padding-top: 8px;
+	border-top: 1px solid #007b42;
+}
+.newOperationInputsTitle {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 8px;
+	color: #007b42;
+}
+.newOperationContainer {
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 8px;
+}
+.newOperationLabelContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.newOperationLabel {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4px;
+	font-weight: 500;
+	color: #007b42;
+}
+.newOperationInputContainer {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+.newOperationInput {
+	width: 50px;
+	font-size: 16px;
+	padding: 4px 8px;
+	border: 1px solid #007b42;
+	border-radius: 5px;
+	color: #007b42;
+}
+.icon {
+	cursor: pointer;
+}
+.newOperationLaelTotal {
+	margin-left: 32px;
+}
+.newOperationFormTotal {
+	margin-top: 16px;
+	padding-top: 8px;
+	border-top: 1px solid #007b42;
+}
+.newOperationFormBtn {
+	margin-top: 8px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007b42;
+	color: #fff;
+	font-size: 16px;
+	padding: 4px 0;
+}
